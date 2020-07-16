@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var arr=[1,5,4,556,8,99,2]
+          for(var i=0;i<arr.length;i++){
+                for(var j=i+1;j<arr.length;j++){
+                    if(arr[i]<arr[j]){
+
+                    }else{
+                    var temp=arr[i]
+                    arr.splice(i,1,arr[j])
+                    arr[j]=temp
+                    }
+                }
+          }
+        //   dierci
+          console.log(arr)
+    </script>
+</body>
+</html>
